@@ -1,10 +1,246 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>NamMate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NamMate - Every Service. One Trusted Platform.</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,Helvetica,sans-serif;
+        }
+
+        body{
+            background:#f8f9fc;
+            color:#333;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            padding:18px 8%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            font-size:30px;
+            font-weight:bold;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+        }
+
+        .hero{
+            text-align:center;
+            padding:90px 20px;
+            background:white;
+        }
+
+        .hero h1{
+            font-size:48px;
+            color:#0d6efd;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:22px;
+            color:#666;
+            max-width:700px;
+            margin:auto;
+        }
+
+        .buttons{
+            margin-top:35px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:15px 35px;
+            border-radius:8px;
+            text-decoration:none;
+            font-weight:bold;
+            margin:10px;
+        }
+
+        .call{
+            background:#0d6efd;
+            color:white;
+        }
+
+        .whatsapp{
+            background:#25D366;
+            color:white;
+        }
+
+        .section{
+            padding:70px 8%;
+        }
+
+        .section h2{
+            text-align:center;
+            margin-bottom:40px;
+            color:#0d6efd;
+            font-size:34px;
+        }
+
+        .services{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 5px 15px rgba(0,0,0,.08);
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card h3{
+            margin-bottom:10px;
+        }
+
+        .how{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .step{
+            background:white;
+            padding:25px;
+            text-align:center;
+            border-radius:10px;
+            box-shadow:0 5px 15px rgba(0,0,0,.08);
+        }
+
+        footer{
+            background:#0d6efd;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+    </style>
+
 </head>
-<body style="font-family:Arial;text-align:center;margin-top:100px;">
-    <h1>NamMate</h1>
-    <p>Website is under construction.</p>
+
+<body>
+
+<header>
+
+<div class="logo">NamMate</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Every Service. One Trusted Platform.</h1>
+
+<p>
+Need an AC repair? Looking for a Taxi? Need a Driver or Home Service?
+One call to NamMate and we'll connect you with the right expert.
+</p>
+
+<div class="buttons">
+
+<a href="tel:+919999999999" class="btn call">📞 Call Now</a>
+
+<a href="https://wa.me/919999999999" class="btn whatsapp">💬 WhatsApp</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card"><h3>❄ AC Repair</h3></div>
+
+<div class="card"><h3>📺 TV Repair</h3></div>
+
+<div class="card"><h3>🧺 Washing Machine</h3></div>
+
+<div class="card"><h3>🧊 Refrigerator</h3></div>
+
+<div class="card"><h3>🚖 Taxi Service</h3></div>
+
+<div class="card"><h3>🚗 Car Rental</h3></div>
+
+<div class="card"><h3>👨‍✈ Acting Driver</h3></div>
+
+<div class="card"><h3>⚡ Electrician</h3></div>
+
+<div class="card"><h3>🚰 Plumber</h3></div>
+
+<div class="card"><h3>🪚 Carpenter</h3></div>
+
+<div class="card"><h3>🧹 Home Cleaning</h3></div>
+
+<div class="card"><h3>➕ More Services</h3></div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>How It Works</h2>
+
+<div class="how">
+
+<div class="step">
+<h3>1️⃣ Contact NamMate</h3>
+<p>Call us or message us on WhatsApp.</p>
+</div>
+
+<div class="step">
+<h3>2️⃣ We Find the Right Expert</h3>
+<p>We assign a trusted professional for your requirement.</p>
+</div>
+
+<div class="step">
+<h3>3️⃣ Get Your Work Done</h3>
+<p>Fast, reliable and hassle-free service.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>NamMate</h3>
+
+<p>Every Service. One Trusted Platform.</p>
+
+<p style="margin-top:10px;">
+📞 +91 90420 00676
+</p>
+
+</footer>
+
 </body>
 </html>
