@@ -543,7 +543,6 @@ section + section { padding-top: 0; }
   .nav-links a { padding: 14px 16px; }
 
   .area-card { flex-basis: calc(50% - 8px); }
-  .trust-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
 }
