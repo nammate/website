@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Washing Machine Repair & Service in Coimbatore | NamMate</title>
+
+  <meta name="description" content="Book reliable washing machine repair and service in Coimbatore. NamMate connects you with local service professionals for washing machine repair, installation and maintenance.">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Washing Machine Service Page */
+
+    .service-page-hero {
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #f5f9ff 0%, #ffffff 55%, #eef5ff 100%);
+    }
+
+    .service-page-container {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .service-breadcrumb {
+      margin-bottom: 35px;
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    .service-breadcrumb a {
+      color: #1769ff;
+      text-decoration: none;
+    }
+
+    .service-hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .service-badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 30px;
+      background: #eaf2ff;
+      color: #1769ff;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    .service-page-hero h1 {
+      margin: 0 0 20px;
+      font-size: clamp(38px, 5vw, 62px);
+      line-height: 1.05;
+      letter-spacing: -1.5px;
+      color: #0f2742;
+    }
+
+    .service-page-hero h1 span {
+      color: #1769ff;
+    }
+
+    .service-intro {
+      max-width: 620px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #53657a;
+      margin-bottom: 28px;
+    }
+
+    .service-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .service-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 14px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      transition: .2s ease;
+    }
+
+    .service-btn-primary {
+      background: #1769ff;
+      color: white;
+      box-shadow: 0 10px 25px rgba(23, 105, 255, .18);
+    }
+
+    .service-btn-primary:hover {
+      transform: translateY(-2px);
+      background: #0757e8;
+    }
+
+    .service-btn-secondary {
+      border: 1px solid #1769ff;
+      color: #1769ff;
+      background: white;
+    }
+
+    .service-btn-secondary:hover {
+      background: #f2f7ff;
+    }
+
+    .service-trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 14px;
+      color: #52667d;
+    }
+
+    .service-trust span {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .service-visual {
+      background: white;
+      border-radius: 24px;
+      padding: 25px;
+      box-shadow: 0 20px 55px rgba(15, 39, 66, .10);
+      border: 1px solid #e3ebf5;
+    }
+
+    .washing-machine-illustration {
+      width: 100%;
+      display: block;
+    }
+
+    .service-section {
+      padding: 75px 20px;
+    }
+
+    .service-section-light {
+      background: #f8fbff;
+    }
+
+    .section-heading {
+      max-width: 720px;
+      margin: 0 auto 45px;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0 0 14px;
+      color: #0f2742;
+      font-size: clamp(30px, 4vw, 42px);
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: #64748b;
+      line-height: 1.7;
+    }
+
+    .service-cards {
+      max-width: 1120px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .service-info-card {
+      background: white;
+      border: 1px solid #e3ebf5;
+      border-radius: 18px;
+      padding: 28px;
+    }
+
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 13px;
+      background: #eaf2ff;
+      color: #1769ff;
+      font-size: 23px;
+      margin-bottom: 18px;
+    }
+
+    .service-info-card h3 {
+      margin: 0 0 10px;
+      color: #142f4a;
+      font-size: 19px;
+    }
+
+    .service-info-card p {
+      margin: 0;
+      color: #64748b;
+      line-height: 1.65;
+      font-size: 15px;
+    }
+
+    .problem-list {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .problem-item {
+      background: white;
+      border: 1px solid #e3ebf5;
+      border-radius: 12px;
+      padding: 17px 20px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      color: #334e68;
+    }
+
+    .problem-item strong {
+      color: #1769ff;
+      font-size: 18px;
+    }
+
+    .service-cta {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #0f2742;
+      color: white;
+      border-radius: 24px;
+      padding: 50px 40px;
+      text-align: center;
+    }
+
+    .service-cta h2 {
+      margin: 0 0 12px;
+      font-size: clamp(30px, 4vw, 42px);
+    }
+
+    .service-cta p {
+      max-width: 650px;
+      margin: 0 auto 25px;
+      color: #cbd8e8;
+      line-height: 1.7;
+    }
+
+    .service-cta .service-btn-secondary {
+      background: white;
+      border-color: white;
+    }
+
+    @media (max-width: 800px) {
+      .service-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+      }
+
+      .service-page-hero {
+        padding: 45px 18px;
+      }
+
+      .service-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .problem-list {
+        grid-template-columns: 1fr;
+      }
+
+      .service-cta {
+        padding: 40px 22px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .service-buttons {
+        flex-direction: column;
+      }
+
+      .service-btn {
+        width: 100%;
+      }
+
+      .service-trust {
+        flex-direction: column;
+        gap: 9px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+
+      <a href="index.html" class="brand">
+        <span class="brand-mark">N</span>
+        <span class="brand-name">Nam<span>Mate</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <a href="tel:+919042000676" class="phone-button" aria-label="Call NamMate">
+          ☎
+        </a>
+
+        <button
+          class="hamburger"
+          id="hamburgerBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <main>
+
+    <section class="service-page-hero">
+
+      <div class="service-page-container">
+
+        <div class="service-breadcrumb">
+          <a href="index.html">Home</a>
+          <span> / Washing Machine Service</span>
+        </div>
+
+        <div class="service-hero-grid">
+
+          <div>
+
+            <div class="service-badge">
+              Washing Machine Service
+            </div>
+
+            <h1>
+              Reliable Washing Machine
+              <span>Repair & Service</span>
+            </h1>
+
+            <p class="service-intro">
+              Having trouble with your washing machine?
+              NamMate helps you connect with local service professionals
+              for washing machine repair, installation and maintenance.
+            </p>
+
+            <div class="service-buttons">
+
+              <a
+                href="tel:+919042000676"
+                class="service-btn service-btn-primary">
+                ☎ Call Now
+              </a>
+
+              <a
+                href="https://wa.me/919042000676?text=Hi%20NamMate%2C%20I%20need%20washing%20machine%20service."
+                class="service-btn service-btn-secondary"
+                target="_blank"
+                rel="noopener">
+                WhatsApp Us
+              </a>
+
+            </div>
+
+            <div class="service-trust">
+              <span>✓ Local service professionals</span>
+              <span>✓ Easy booking</span>
+              <span>✓ Multiple service options</span>
+            </div>
+
+          </div>
+
+
+          <!-- WASHING MACHINE VISUAL -->
+          <div class="service-visual">
+
+            <svg
+              class="washing-machine-illustration"
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="Washing machine illustration"
+              role="img">
+
+              <defs>
+                <linearGradient id="wmBg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#EAF2FF"/>
+                  <stop offset="100%" stop-color="#DCEBFF"/>
+                </linearGradient>
+
+                <linearGradient id="wmBody" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#FFFFFF"/>
+                  <stop offset="100%" stop-color="#F1F6FF"/>
+                </linearGradient>
+              </defs>
+
+              <rect width="500" height="500" rx="25" fill="url(#wmBg)"/>
+
+              <!-- floor -->
+              <rect x="70" y="405" width="360" height="12" rx="6" fill="#C5D8F5"/>
+
+              <!-- washing machine -->
+              <rect
+                x="135"
+                y="70"
+                width="230"
+                height="330"
+                rx="25"
+                fill="url(#wmBody)"
+                stroke="#C4D7F2"
+                stroke-width="3"/>
+
+              <!-- top control panel -->
+              <rect
+                x="155"
+                y="95"
+                width="190"
+                height="70"
+                rx="13"
+                fill="#F5F8FD"
+                stroke="#D6E2F2"
+                stroke-width="2"/>
+
+              <!-- display -->
+              <rect
+                x="175"
+                y="115"
+                width="75"
+                height="22"
+                rx="5"
+                fill="#DDEAFF"/>
+
+              <circle cx="315" cy="125" r="17" fill="#1769FF"/>
+              <circle cx="315" cy="125" r="7" fill="white"/>
+
+              <!-- buttons -->
+              <circle cx="270" cy="125" r="7" fill="#A9C2E8"/>
+              <circle cx="295" cy="125" r="7" fill="#A9C2E8"/>
+
+              <!-- washing drum -->
+              <circle
+                cx="250"
+                cy="275"
+                r="92"
+                fill="#E7F0FC"
+                stroke="#B9CFEF"
+                stroke-width="4"/>
+
+              <circle
+                cx="250"
+                cy="275"
+                r="72"
+                fill="#D5E5F8"/>
+
+              <circle
+                cx="250"
+                cy="275"
+                r="56"
+                fill="#EDF5FF"/>
+
+              <!-- water -->
+              <path
+                d="M195 280
+                   C215 265 230 292 250 277
+                   C270 262 287 292 305 276
+                   L305 315
+                   C280 330 220 330 195 315 Z"
+                fill="#79B5FF"
+                opacity=".8"/>
+
+              <!-- clothes -->
+              <path
+                d="M215 275
+                   C220 255 235 250 250 260
+                   C265 250 280 255 285 275
+                   C278 290 265 296 250 290
+                   C235 296 222 290 215 275Z"
+                fill="#1769FF"
+                opacity=".8"/>
+
+              <!-- feet -->
+              <rect x="165" y="395" width="35" height="10" rx="5" fill="#9CB7DC"/>
+              <rect x="300" y="395" width="35" height="10" rx="5" fill="#9CB7DC"/>
+
+              <!-- floating check -->
+              <circle cx="390" cy="100" r="32" fill="#16A34A"/>
+              <path
+                d="M374 100 L386 112 L408 88"
+                stroke="white"
+                stroke-width="6"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"/>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="service-section">
+
+      <div class="section-heading">
+        <h2>Washing Machine Services</h2>
+        <p>
+          Get help for common washing machine problems and service requirements.
+        </p>
+      </div>
+
+      <div class="service-cards">
+
+        <div class="service-info-card">
+          <div class="service-icon">🔧</div>
+          <h3>Washing Machine Repair</h3>
+          <p>
+            Assistance for washing machines that are not working properly,
+            making unusual sounds, stopping during cycles or showing errors.
+          </p>
+        </div>
+
+        <div class="service-info-card">
+          <div class="service-icon">⚙️</div>
+          <h3>Installation & Setup</h3>
+          <p>
+            Get assistance with washing machine installation,
+            connections and basic setup.
+          </p>
+        </div>
+
+        <div class="service-info-card">
+          <div class="service-icon">🛠️</div>
+          <h3>Maintenance</h3>
+          <p>
+            Regular servicing can help keep your washing machine
+            working smoothly and efficiently.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- COMMON PROBLEMS -->
+    <section class="service-section service-section-light">
+
+      <div class="section-heading">
+        <h2>Common Washing Machine Problems</h2>
+        <p>
+          Facing any of these issues? Contact NamMate to find a local service professional.
+        </p>
+      </div>
+
+      <div class="problem-list">
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Washing machine not turning on
+        </div>
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Washing machine not draining
+        </div>
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Machine not spinning
+        </div>
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Water leaking from the machine
+        </div>
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Excessive noise or vibration
+        </div>
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Washing machine showing an error
+        </div>
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Door or lid not locking
+        </div>
+
+        <div class="problem-item">
+          <strong>✓</strong>
+          Machine not filling with water
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="service-section">
+
+      <div class="service-cta">
+
+        <h2>Need Washing Machine Service?</h2>
+
+        <p>
+          Call NamMate or message us on WhatsApp.
+          We'll help connect you with a suitable local service professional.
+        </p>
+
+        <div class="service-buttons" style="justify-content:center;">
+
+          <a
+            href="tel:+919042000676"
+            class="service-btn service-btn-primary">
+            ☎ Call Now
+          </a>
+
+          <a
+            href="https://wa.me/919042000676?text=Hi%20NamMate%2C%20I%20need%20washing%20machine%20service."
+            class="service-btn service-btn-secondary"
+            target="_blank"
+            rel="noopener">
+            WhatsApp Us
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-bottom">
+        <p>
+          © <span id="year"></span> NamMate. All rights reserved.
+        </p>
+
+        <a href="index.html">Back to Home</a>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="js/script.js" defer></script>
+
+</body>
+</html>
