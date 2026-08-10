@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- Scroll reveal animations ---------- */
   const revealTargets = document.querySelectorAll(
-    '.service-card, .why-item, .step, .area-card, .faq-item, .trust-item'
+  '.service-card, .why-item, .step, .area-card, .faq-item'
   );
 
   if ('IntersectionObserver' in window && revealTargets.length) {
