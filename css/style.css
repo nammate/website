@@ -507,7 +507,6 @@ section + section { padding-top: 0; }
   .why-item { flex-basis: calc(50% - 12px); }
   .steps { grid-template-columns: repeat(2, 1fr); row-gap: 40px; }
   .step:nth-child(2)::after { display: none; }
-  .trust-grid { grid-template-columns: repeat(3, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr 1fr; }
 }
 
