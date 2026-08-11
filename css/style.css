@@ -222,14 +222,20 @@ section + section { padding-top: 0; }
 .hero-visual { position: relative; display: flex; justify-content: center; }
 .hero-card-main {
   width: 100%;
-  max-width: 420px;
+  max-width: 480px;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
-  aspect-ratio: 4 / 5;
-  background: linear-gradient(160deg, var(--color-primary-light), #DCEBFF);
+  background: var(--color-white);
+  aspect-ratio: 1 / 1;
 }
-.hero-card-main img { width: 100%; height: 100%; object-fit: contain; }
+
+.hero-card-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 
 .hero-card-float {
   position: absolute;
